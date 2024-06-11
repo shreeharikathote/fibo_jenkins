@@ -17,7 +17,12 @@ public class Main {
         double squareRoot = calculator.squareRoot(number);
         double cubeRoot = calculator.cubeRoot(number);
 
+
         System.out.println("Square root of " + number + " is: " + squareRoot);
         System.out.println("Cube root of " + number + " is: " + cubeRoot);
+
+        System.out.println("2Square root of " + number + " is: " + squareRoot);
+    System.out.println("2Cube root of " + number + " is: " + cubeRoot);
     }
+    
 }
